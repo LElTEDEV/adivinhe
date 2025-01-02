@@ -27,3 +27,35 @@
 
     margin: 2.5rem 0;
 }
+
+.container .input {
+    margin-top: 0.75rem;
+
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.container input {
+    height: 2.87rem;
+    width: 2.87rem;
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #4F4FB9;
+    background-color: #EBEBFC;
+
+    border: 2px solid #4F4FB9;
+    border-radius: 0.43rem;
+
+}
+
+.container input:focus {
+    border: 2px solid #4F4FB9;
+}
+
+::-webkit-input-placeholder {
+    color: #4F4FB9;
+    font-weight: bold;
+ }
