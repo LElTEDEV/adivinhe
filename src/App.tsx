@@ -4,6 +4,7 @@ import styles from './app.module.css'
 import { Tip } from "./components/Tip"
 import { Letter } from "./components/Letter"
 import { Button } from "./components/Button"
+import { LetterUsed } from "./components/LettersUsed"
 
 export function App() {
 
@@ -32,6 +33,8 @@ export function App() {
           <input type="text" autoFocus maxLength={1} placeholder="?" />
           <Button title="Confirmar"/>
         </div>
+
+        <LetterUsed />
       </main>
     </div>
   )
